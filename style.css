@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: gold;
+    margin-left: 10%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+section {
+    width: 100vw;
+    height:7vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+header {
+    width: 90vw;
+    background-color: black;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 93vh;
+    width: 100vw;
+}
+nav {
+    height:7vh;
+}
+
+#resultado_multiplicacao, #resultado_divisao, #resultado_soma, #resultado_subtracao {
+    width: 20%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.multiplicacao, .divisao, .soma, .subtracao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 50%;
+}
+.multiplicacao {
+    background-color: darkgrey;
+}
+.divisao {
+    background-color: lightgrey; 
+}
+.soma {
+    background-color: lightgrey; 
+}
+.subtracao {
+    background-color: darkgrey; 
+}
+.botao_de_acao {
+    width: 20%;
+    height: 10%;
+    border-radius: 0px 7px;
+}
+.botao_outra_pagina {
+    height: 100%;
+    border-radius: 7px 0px;
+    width: 110%;
+    background-color: gold;
+}

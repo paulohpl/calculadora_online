@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Calculadora Online</h1>
+        </header>
+        <nav>
+            <a href="./index2.html"><button class="botao_outra_pagina" >Outra pagina</button></a>
+            
+        </nav>
+    </section>
+    
+    <main>
+        <div class="multiplicacao">
+            <INPUT id="num1_m" placeholder="digite aqui seu numero"></INPUT>
+            <INPUT id="num2_m" placeholder="digite aqui seu numero"></INPUT>
+        
+            <button class="botao_de_acao" onclick="multiplicar()" id="botao_multiplicar">Multiplicar</button>
+        
+            <div id="resultado_multiplicacao"></div>
+        </div>
+        
+        <div class="divisao">
+            <INPUT id="num1_d" placeholder="digite aqui seu numero"></INPUT>
+            <INPUT id="num2_d" placeholder="digite aqui seu numero"></INPUT>
+        
+            <button class="botao_de_acao" onclick="dividir()" id="botao_dividir">Dividir</button>
+        
+            <div id="resultado_divisao"></div>
+        </div>
+    
+        <div class="soma">
+            <INPUT id="num1_som" placeholder="digite aqui seu numero"></INPUT>
+            <INPUT id="num2_som" placeholder="digite aqui seu numero"></INPUT>
+        
+            <button class="botao_de_acao" onclick="soma()" id="botao_somar">Somar</button>
+        
+            <div id="resultado_soma"></div>
+        </div>
+    
+        <div class="subtracao">
+            <INPUT id="num1_sub" placeholder="digite aqui seu numero"></INPUT>
+            <INPUT id="num2_sub" placeholder="digite aqui seu numero"></INPUT>
+        
+            <button class="botao_de_acao" onclick="subtracao()" id="botao_subtrair">Subtrair</button>
+        
+            <div id="resultado_subtracao"></div>
+        </div>
+    </main>
+    
+    
+
+    <script src="./code.js"></script>
+</body>
+</html>
